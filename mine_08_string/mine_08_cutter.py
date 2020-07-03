@@ -1,7 +1,9 @@
 num_str = "0123456789"
 
 # 截取2-5
+print(type(num_str))
 print(num_str[2:6])
+print(type(num_str[2:6]))
 # 截取2到末尾
 print(num_str[2:])
 # 开始到5

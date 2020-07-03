@@ -1,7 +1,7 @@
 print(10 + 20)  # add
 print(20 - 10)  # minus
 print(10 * 20)  # multiply
-print(10.1 / 20)  # divide
+print(10 / 3)  # divide
 print(10 // 20)  # 整除
 print(9 % 4)  # 取余数
 print(9 ** 2)  # 幂次方

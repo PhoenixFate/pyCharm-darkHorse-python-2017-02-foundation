@@ -7,5 +7,5 @@ print(len(nameList))
 print(nameList.count("tom"))
 
 # remove 删除第一次出现的数据, 如果数据不存在报错
-nameList.remove("tom")
+nameList.remove("tom2")
 print(nameList.count("tom"))

@@ -1,7 +1,6 @@
 # 缺省参数必须在末尾
 def print_info(name, gender=True):
     """
-
     @param name: 姓名
     @param gender: 性别，true为男生，false为女生
     """

@@ -9,3 +9,4 @@ people = {"name": "tom",
 # k是每一次循环中拿到对key
 for k in people:
     print("people[%s]: %s" % (k, people[k]))
+    print("people[{0}]: {1}".format(k, people[k]))

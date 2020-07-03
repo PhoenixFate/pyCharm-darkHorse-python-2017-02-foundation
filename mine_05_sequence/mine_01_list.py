@@ -2,7 +2,6 @@ name = ["tom", "cat", "abc"]
 
 # 1.取值
 print(name[0])
-print(name[1])
 
 # 2.取索引
 print(name.index("cat"))
@@ -18,7 +17,7 @@ name.append("append")
 print(name[3])
 
 name.insert(2, "insert")
-print(name[3])
+print(name[2])
 
 # extend 可以把其他列表中的完整内容 追加到当前列表的末尾
 temp_list = ['temp1', "temp2"]
@@ -39,6 +38,9 @@ for temp in name:
 print()
 # 清空
 name.clear()
-for temp in name:
-    print(temp, end="\t")
-print()
+if len(name) == 0:
+    print("len name is zero")
+else:
+    for temp in name:
+        print(temp, end="\t")
+    print()

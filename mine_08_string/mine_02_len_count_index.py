@@ -8,6 +8,6 @@ print(hello.count("hello"))
 
 # 3.index
 print(hello.index("python"))
-# 报错
+# 不存在则报错
 # print(hello.index("abc"))
 

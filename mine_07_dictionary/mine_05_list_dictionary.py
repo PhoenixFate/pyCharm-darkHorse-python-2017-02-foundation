@@ -2,7 +2,7 @@ card_list = [
     {
         "name": "tom",
         "age": 18,
-        "phone":"18751801512"
+        "phone": "18751801512"
     },
     {
         "name": "carry",

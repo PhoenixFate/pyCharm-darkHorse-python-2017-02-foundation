@@ -15,4 +15,3 @@ print(people["name"])
 
 # 3.删除
 people.pop("name")
- 

@@ -4,7 +4,7 @@ hello = "hello python"
 # 1.string.isspace()如果strin中只包含空格，返回True
 # \t \n \r 空格 都属于空白字符
 space_str = " \t\n\r"
-print("如果strin中只包含空格，返回True: %s" % space_str.isspace())
+print("如果string中只包含空格，返回True: %s" % space_str.isspace())
 print(hello.isspace())
 
 # 2.string.isalnum()如果string至少有一个字符，并且所有字符串都是字母或数字，返回True

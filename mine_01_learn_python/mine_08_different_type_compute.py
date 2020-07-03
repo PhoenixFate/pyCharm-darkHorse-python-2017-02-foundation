@@ -5,6 +5,7 @@ b = True
 c = i + f
 d = f + b
 e = i + b
+print(type(b))
 print(c)
 print(d)
 print(e)
@@ -17,4 +18,4 @@ secondName = "fate"
 fullName = firstName + " " + secondName
 print(fullName)
 
-print("-"*50)
+print("-" * 50)

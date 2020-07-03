@@ -11,3 +11,4 @@ gl_dict = {"name": "tom", "age": 18}
 # 在字典变量前添加**
 # 简化元祖，字典变量的传递
 demo(*gl_nums, **gl_dict)
+
